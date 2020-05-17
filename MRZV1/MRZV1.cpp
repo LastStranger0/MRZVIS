@@ -5,10 +5,12 @@
 #include <thread>
 #include <chrono>
 #include <string>
+#include "multiplication.h"
+#include "timer.h"
 
 using namespace std;
 
 int main()
 {
-	
+
 }
