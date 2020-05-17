@@ -1,3 +1,5 @@
 # MRZVIS
-Laboratory work on MRZVIS
-1 lab: Implementation of a model for solving a problem on a pipelined architecture
+##Laboratory work on MRZVIS
+###1 lab: 
+Implementation of a model for solving a problem on a pipelined architecture
+
