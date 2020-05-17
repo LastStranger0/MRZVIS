@@ -12,5 +12,8 @@ using namespace std;
 
 int main()
 {
-
+	multiplication m;
+	m.SeeVector();
+	m.Umnogenie();
+	m.SeeResult();
 }
