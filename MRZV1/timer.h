@@ -1,5 +1,21 @@
 #pragma once
+
+#include <iostream>
+#include <bitset>
+#include <mutex>
+#include <thread>
+#include <chrono>
+
+using namespace std;
+
 class timer
 {
+private:
+	chrono::time_point<chrono::steady_clock> start, end;
+	chrono::duration<double> duration;
+public:
+	timer();
+	~timer();
+	void getTime();
 };
 
