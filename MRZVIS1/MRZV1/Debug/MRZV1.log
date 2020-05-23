@@ -1,0 +1,12 @@
+﻿  multiplication.cpp
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(52,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(52,57): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(93,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(107,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(109,21): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(136,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(149,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(160,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZV1\MRZV1\multiplication.cpp(191,20): warning C4018: <: несоответствие типов со знаком и без знака
+  MRZV1.vcxproj -> C:\Users\anton\source\repos\MRZV1\Debug\MRZV1.exe

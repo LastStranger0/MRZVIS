@@ -1,0 +1,21 @@
+﻿  matrix.cpp
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(16,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(25,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(32,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(34,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(53,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(61,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(70,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(72,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(111,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(133,9): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(198,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(266,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(284,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(285,21): warning C4018: <: несоответствие типов со знаком и без знака
+  MRZVIS2.vcxproj -> C:\Users\anton\source\repos\MRZVIS2\Debug\MRZVIS2.exe
