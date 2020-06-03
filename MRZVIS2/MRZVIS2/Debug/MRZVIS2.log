@@ -1,21 +1,26 @@
-﻿  matrix.cpp
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(16,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(25,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(32,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(34,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(53,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(61,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(70,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(72,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(111,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(133,9): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+﻿  MRZVIS2.cpp
+  matrix.cpp
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(19,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(30,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(37,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(39,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(68,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(108,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(130,9): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
           with
           [
               _Ty=double
           ]
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(198,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(266,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(284,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(285,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(195,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(263,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(281,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(282,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(311,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(313,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(321,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(323,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anton\source\repos\MRZVIS2\MRZVIS2\matrix.cpp(333,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
   MRZVIS2.vcxproj -> C:\Users\anton\source\repos\MRZVIS2\Debug\MRZVIS2.exe

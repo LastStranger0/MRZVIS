@@ -1,7 +1,12 @@
 #include "matrix.h"
 #include <stdio.h>
 
-matrix::matrix(unsigned int p1, unsigned int m1, unsigned int q1) : m(m1), p(p1), q(q1) {
+matrix::matrix(unsigned int p1, unsigned int m1, unsigned int q1) : m(m1), p(p1), q(q1), time(){
+	min_time = chrono::milliseconds(0);
+	max_time = chrono::milliseconds(0);
+	sum_time = chrono::milliseconds(0);
+	mult_time = chrono::milliseconds(0);
+	minus_time = chrono::milliseconds(0);
 	matrixpush(A, p, m);
 	matrixpush(B, m, q);
 	matrixpush(E, m);
@@ -49,6 +54,7 @@ double matrix::drand(double b, double e)
 
 
 double matrix::min(vector<double> vect) {
+	time.addtime(min_time);
 	double result = 2;
 	for (int i = 0; i < vect.size(); i++) {
 		if (vect[i] < result) result = vect[i];
@@ -57,6 +63,7 @@ double matrix::min(vector<double> vect) {
 }
 
 double matrix::max(vector<double> vect) {
+	time.addtime(max_time);
 	double result = -2;
 	for (int i = 0; i < vect.size(); i++) {
 		if (vect[i] > result) result = vect[i];
@@ -64,49 +71,39 @@ double matrix::max(vector<double> vect) {
 	return result;
 }
 
-vector<double> matrix::unite(vector<double> a, vector<double> b) {
-	vector<double> result;
-	result = a;
-	for (int i = 0; i < b.size(); i++) {
-		int itr = 0;
-		for (int j = 0; j < result.size(); j++) {
-			if (result[j] != b[i]) {
-				itr++;
-			}
-		}
-		if (itr == b.size()) {
-			result.push_back(b[i]);
-		}
-	}
-	return result;
-}
-
 double matrix::min(double a, double b) {
+	time.addtime(min_time);
 	return a < b ? a : b;
 }
 
 double matrix::max(double a, double b) {
+	time.addtime(max_time);
 	return a > b ? a : b;
 }
 
 double matrix::multiply(double a, double b) {
+	time.addtime(mult_time);
 	return a * b;
 }
 
 double matrix::multiply(double a, double b, double c) {
+	time.addtime(mult_time);
 	return a * b * c;
 }
 
 double matrix::minus(double a, double b)
 {
+	time.addtime(minus_time);
 	return a - b;
 }
 
 double matrix::sum(double a, double b) {
+	time.addtime(sum_time);
 	return a + b;
 }
 
 double matrix::multiply(vector<double> vect) {
+	time.addtime(mult_time);
 	double fin = 1;
 	for (int i = 0; i < vect.size(); i++) {
 		fin *= vect[i];
@@ -310,12 +307,60 @@ void matrix::seematrix(vector<double> matr, int a) {
 	cout << " ]" << endl;
 }
 
-void matrix::seematrixC(int a, int b) {
-	for (int i = 0; i < a; i++) {
+void matrix::seematrixC() {
+	for (int i = 0; i < C.size(); i++) {
 		cout << "[ ";
-		for (int j = 0; j < b; j++) {
+		for (int j = 0; j < C[i].size(); j++) {
 			cout << C[i][j] << " ";
 		}
 		cout << " ]" << endl;
 	}
+}
+
+void matrix::seematrix(vector<vector<double>> matr) {
+	for (int i = 0; i < matr.size(); i++) {
+		cout << "[ ";
+		for (int j = 0; j < matr[i].size(); j++) {
+			cout << matr[i][j] << " ";
+		}
+		cout << " ]" << endl;
+	}
+	cout << endl;
+}
+
+void matrix::seematrix(vector<double> matr) {
+	cout << "[ ";
+	for (int i = 0; i < matr.size(); i++) {
+		cout << matr[i];
+	}
+	cout << " ]" << endl;
+	cout << endl;
+}
+
+void matrix::settimer(int sum, int minus, int multiply, int min, int max) {
+	this->sum_time = chrono::milliseconds(sum);
+	this->minus_time = chrono::milliseconds(minus);
+	this->mult_time = chrono::milliseconds(multiply);
+	this->min_time = chrono::milliseconds(min);
+	this->max_time = chrono::milliseconds(max);
+}
+
+void matrix::seetimer() {
+	time.getTime();
+}
+
+vector<vector<double> >matrix::getA() {
+	return A;
+}
+
+vector<vector<double> >matrix::getB() {
+	return B;
+}
+
+vector<double> matrix::getE() {
+	return E;
+}
+
+vector<vector<double> >matrix::getG() {
+	return G;
 }

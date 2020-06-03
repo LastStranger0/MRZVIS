@@ -149,9 +149,11 @@
   <ItemGroup>
     <ClCompile Include="matrix.cpp" />
     <ClCompile Include="MRZVIS2.cpp" />
+    <ClCompile Include="timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="matrix.h" />
+    <ClInclude Include="timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
